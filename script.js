@@ -1,10 +1,6 @@
 
 
-    // Add dynamic footer year
-    const footer = document.querySelector('footer p');
-    const currentYear = new Date().getFullYear();
-    footer.innerHTML += ` © ${currentYear}`;
-
+   
     // Highlight link on hover
     const referenceLink = document.querySelector('.reference-link');
     referenceLink.addEventListener('mouseover', () => {
